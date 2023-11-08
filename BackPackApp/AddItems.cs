@@ -17,7 +17,9 @@ namespace BackPackApp
 		Rope rope = new();
 		Sword sword = new();
 		Water water = new();
-			while (true)
+		bool programRunning = true;
+
+			while (programRunning)
 			{
 				Console.Clear();
 				Console.WriteLine("1 to add sword\n" +
@@ -49,7 +51,7 @@ namespace BackPackApp
 						pack.Add(water);
 						break;
 					case "7":
-						Console.WriteLine("exit");
+						programRunning = false;
 						break;
 
 					default:
