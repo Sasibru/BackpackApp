@@ -9,9 +9,9 @@ namespace BackPackApp
 {
 	public class Pack
 	{
-		const double maxWeight = 10;
-		const double maxVolume = 10;
-		const double maxItems = 20;
+		const double maxWeight = 14;
+		const double maxVolume = 18;
+		const double maxItems = 14;
 
 		static List<InventoryItem> backpackList = new();
 
